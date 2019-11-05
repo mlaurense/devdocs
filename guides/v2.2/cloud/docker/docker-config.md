@@ -78,9 +78,9 @@ Start the synchronization daemon | `docker-sync start`
 
 Use the following command to stop and remove the Docker configuration:
 
-   ```bash
-   docker-compose down -v
-   ```
+```bash
+docker-compose down -v
+```
 
 {: .bs-callout-warning}
 This removes all components of your local Docker instance including containers, networks, volumes, and images.
